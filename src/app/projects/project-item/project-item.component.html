@@ -1,0 +1,34 @@
+<div class="col">
+  <div class="card shadow-sm">
+    <img
+      class="bd-placeholder-img card-img-top"
+      width="100%"
+      height="225"
+      src="../../assets/projects-img/{{ project.img }}"
+    />
+    <div class="card-body">
+      <h5 class="card-title">{{ project.name }}</h5>
+      <p class="card-text">{{ project.summary }}</p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+          <a
+            type="button"
+            class="btn btn-sm btn-outline-secondary"
+            href="{{ project.liveLink }}"
+            target="_blank"
+          >
+            Live Demo
+          </a>
+          <a
+            type="button"
+            class="btn btn-sm btn-outline-secondary"
+            href="{{ project.github }}"
+            target="_blank"
+          >
+            github
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
