@@ -1,16 +1,28 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { EnteranceComponent } from './enterance/enterance.component';
-import { NavigationComponent } from './navigation/navigation.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
+import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 
 const routes: Routes = [
-  { path: '', component: EnteranceComponent },
-
+  { path: '', component: HomeComponent },
+  { path: 'about', component: AboutComponent },
   {
     path: 'projects',
     component: ProjectsComponent,
   },
+  {
+    path: 'contacts',
+    component: ContactComponent,
+  },
+  {
+    path: 'not-found',
+    component: ErrorPageComponent,
+    data: { message: 'Page not found!!' },
+  },
+  { path: '**', redirectTo: '/not-found' },
 ];
 
 @NgModule({
