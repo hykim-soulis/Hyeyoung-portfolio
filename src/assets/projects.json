@@ -15,7 +15,7 @@
     "liveLink": "https://mystore-hyeyoung.netlify.app/",
     "github": "https://github.com/hykim-soulis/myStore",
     "img": "mystore.jpg",
-    "summary": "MyStore is Angular application that allows users to view a list of available products to purchase, add them to a shopping cart, and ultimately complete the checkout process. This is a project for Udacity Full Stack JavaScript Developer Nanodegree Program.",
+    "summary": "MyStore is Angular application that allows users to view a list of available products to purchase, add them to a shopping cart, and ultimately complete the checkout process.",
     "description": "",
     "lessonLearned": ["Angular", "Bootstrap", "Typescript"]
   },
