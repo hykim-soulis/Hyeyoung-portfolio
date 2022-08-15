@@ -19,7 +19,7 @@ export class ProjectItemComponent implements OnInit {
       img: '',
       summary: '',
       description: '',
-      lessonLearned: [],
+      skills: [],
     };
   }
 

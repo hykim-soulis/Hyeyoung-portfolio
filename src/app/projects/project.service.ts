@@ -20,7 +20,7 @@ export class ProjectService {
       img: '',
       summary: '',
       description: '',
-      lessonLearned: [],
+      skills: [],
     };
   }
 

@@ -6,7 +6,7 @@ export class Project {
   img: string;
   summary: string;
   description: string;
-  lessonLearned: string[];
+  skills: string[];
 
   constructor() {
     this.name = '';
@@ -16,6 +16,6 @@ export class Project {
     this.img = '';
     this.summary = '';
     this.description = '';
-    this.lessonLearned = [];
+    this.skills = [];
   }
 }
