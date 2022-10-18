@@ -25,7 +25,7 @@
     "liveLink": "https://natours-hyeyoung.herokuapp.com/",
     "github": "https://github.com/hykim-soulis/natours",
     "img": "natours.jpg",
-    "summary": "Tour booking api and server-side rendered website using node.js, express, mongoDB, mongoose and pug",
+    "summary": "Natours application is a tour booking api and server-side rendered e-commerce website using node.js, express, mongoDB, mongoose and pug.",
     "description": "",
     "skills": [
       "Node.js",
@@ -46,7 +46,7 @@
     "liveLink": "https://forkify-hyeyoung.netlify.app/",
     "github": "https://github.com/hykim-soulis/forkify-course",
     "img": "forkify.jpg",
-    "summary": "Forkify is a recipe application with custom recipe uploads and bookmark functions.",
+    "summary": "Forkify is a recipe search application with custom recipe uploads and bookmark functions. This application is made with vanilla javascript and Model-View-Controller architecture.",
     "description": "",
     "skills": ["JavaScript", "Parcel"]
   },
@@ -55,8 +55,8 @@
     "id": 5,
     "liveLink": "",
     "github": "https://github.com/hykim-soulis/Store-Backend-Project",
-    "img": "",
-    "summary": "The goal of this project was to create a SQL database, table for a store application and create a RESTful API to be accesible to the frontend developer using typescript. You can find the data shape of the database, table and endpoints from API Requirements section below.",
+    "img": "store-backend.jpg",
+    "summary": "The goal of store backend project is to create a SQL database and tables for the store application, and create a RESTful API that can be accessed by frontend developers.",
     "description": "",
     "skills": [
       "Typescript",
@@ -69,8 +69,18 @@
     ]
   },
   {
-    "name": "Node Farm",
+    "name": "Image Processing API",
     "id": 6,
+    "liveLink": "",
+    "github": "https://github.com/hykim-soulis/Image-Processing-API",
+    "img": "image-processing-api.jpg",
+    "summary": "Image processing api resizes the image to the user's desired size using TypeScript and Express.",
+    "description": "",
+    "skills": ["Express", "Typescript", "Sharp", "Jasmine"]
+  },
+  {
+    "name": "Node Farm",
+    "id": 7,
     "liveLink": "https://nodefarm-hyeyoung.herokuapp.com/",
     "github": "https://github.com/hykim-soulis/node-farm",
     "img": "nodefarm.jpg",
@@ -80,37 +90,37 @@
   },
   {
     "name": "Mapty",
-    "id": 7,
+    "id": 8,
     "liveLink": "https://mapty-hyeyoung.netlify.app/",
     "github": "https://github.com/hykim-soulis/Mapty",
     "img": "mapty.jpg",
-    "summary": "The goal of this application is to log the running and cycling workouts location, duration and distance information by popup pin on the map for user.",
+    "summary": "The goal of this application is to log the running and cycling workout's location, duration and distance information with popup pins on the map for users.",
     "description": "",
     "skills": ["JavaScript", "Leaflet"]
   },
   {
     "name": "Bankist Website",
-    "id": 8,
+    "id": 9,
     "liveLink": "https://bankist-hyeyoung.netlify.app/",
     "github": "https://github.com/hykim-soulis/Bankist-website",
     "img": "bankist-website.jpg",
-    "summary": "This project is a marketing website for a fictional bank called \"Bankist\" with dynamic effects.",
+    "summary": "Bankist website is a marketing website for a fictional bank called \"Bankist\" with dynamic effects including lazy loading image, smooth scrolling and tabbed and slider components.",
     "description": "In this project, I added a sticky navigation bar on the top, smooth scrolling effect by clicking navigation buttons and popup, tabbed and slider components. Also, I implemented lazy loading image effect to improve page loading performance.",
     "skills": ["JavaScript", "CSS", "HTML"]
   },
   {
     "name": "Bankist Account",
-    "id": 9,
+    "id": 10,
     "liveLink": "https://bankist-account-hyeyoung.netlify.app/",
     "github": "https://github.com/hykim-soulis/Bankist-account",
     "img": "bankist-account.jpg",
-    "summary": "Bankist account project is a bank account dashboard for user. In this project, I can learn how to internationalize date and currency format depends on users' locales and set timer for user login session.",
+    "summary": "Bankist account is a bank account dashboard page for user. In this project, I learned how to internationalize date and currency format depends on users' locale and set timer for user login session.",
     "description": "To start this project, you need to login first using one of the below example account. Your login session lasts 5 minutes and any new activity will reset the session timer.<br>1. user: js, PIN: 1111<br>2. user: jd, PIN: 2222<br> You can check your account balance summary and recent transactions as well as transfer money, request loan and close account.",
     "skills": ["JavaScript", "CSS", "HTML"]
   },
   {
     "name": "Guess My Number",
-    "id": 10,
+    "id": 11,
     "liveLink": "https://guessmynumber-hyeyoung.netlify.app/",
     "github": "https://github.com/hykim-soulis/Guess-my-number",
     "img": "guess-my-number.jpg",
@@ -120,11 +130,11 @@
   },
   {
     "name": "Pig Game",
-    "id": 10,
+    "id": 12,
     "liveLink": "https://piggame-hyeyoung.netlify.app/",
     "github": "https://github.com/hykim-soulis/Pig-game",
     "img": "pig-game.jpg",
-    "summary": "This project is a simple dice game with 2 players. I learned how to implement roll dice, hold and new game logics with javascript.",
+    "summary": "This project is a simple dice game with 2 players. I learned how to implement roll dice, hold dice and start new game logics with javascript.",
     "description": "Players take turns to roll a single dice as many times as they wish, adding all roll results to a running total, but losing their gained score for the turn if they roll a 1. The first player to score 100 or more points wins the game.",
     "skills": ["JavaScript", "CSS", "HTML"]
   }

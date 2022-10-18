@@ -1,6 +1,24 @@
-.d-flex {
-  margin-top: 4rem;
+.wrapper {
+  background-image: url(../../assets/background/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  height: 100vh;
+  min-width: 100vw;
+
+  margin: 0;
+  padding: 4rem;
+  overflow-y: scroll;
+  /* place-items: center; */
 }
+
 .contact-icon {
   display: grid;
   justify-content: center;
@@ -10,6 +28,8 @@
   font-size: 9rem;
 }
 .col {
+  margin: auto;
+  width: max-content;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -69,6 +89,11 @@ a {
   width: 0;
   height: 100%;
 }
+
+.card {
+  border: none;
+}
+
 .card:hover .overlay-top,
 .card:hover .overlay-bottom {
   bottom: 0;

@@ -15,7 +15,9 @@
   vertical-align: -0.125em;
   fill: currentColor;
 }
-
+.bi-asterisk {
+  color: #873d7c;
+}
 .active {
   color: blue;
 }

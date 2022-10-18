@@ -20,6 +20,7 @@
         class="btn btn-sm btn-outline-secondary"
         href="{{ project.liveLink }}"
         target="_blank"
+        *ngIf="project.liveLink !== ''"
       >
         Live Demo
       </a>
