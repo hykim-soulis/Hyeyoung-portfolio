@@ -22,7 +22,7 @@
   {
     "name": "Natours",
     "id": 3,
-    "liveLink": "https://natours-hyeyoung.herokuapp.com/",
+    "liveLink": "https://natours-hyeyoung.up.railway.app/",
     "github": "https://github.com/hykim-soulis/natours",
     "img": "natours.jpg",
     "summary": "Natours application is a tour booking api and server-side rendered e-commerce website using node.js, express, mongoDB, mongoose and pug.",
@@ -81,7 +81,7 @@
   {
     "name": "Node Farm",
     "id": 7,
-    "liveLink": "https://nodefarm-hyeyoung.herokuapp.com/",
+    "liveLink": "https://node-farm-hyeyoung.up.railway.app/",
     "github": "https://github.com/hykim-soulis/node-farm",
     "img": "nodefarm.jpg",
     "summary": "Node farm is a simple dynamic website application using node.js and html templating.",
