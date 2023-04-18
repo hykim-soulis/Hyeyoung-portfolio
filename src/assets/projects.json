@@ -22,7 +22,7 @@
   {
     "name": "Natours",
     "id": 3,
-    "liveLink": "https://natours-hyeyoung.up.railway.app/",
+    "liveLink": "https://natours-production-a69e.up.railway.app/",
     "github": "https://github.com/hykim-soulis/natours",
     "img": "natours.jpg",
     "summary": "Natours application is a tour booking api and server-side rendered e-commerce website using node.js, express, mongoDB, mongoose and pug.",
