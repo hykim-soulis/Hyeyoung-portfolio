@@ -10,18 +10,36 @@
     "skills": ["JavaScript", "CSS", "HTML"]
   },
   {
-    "name": "MyStore",
+    "name": "Store A, Frontend Project",
     "id": 2,
-    "liveLink": "https://mystore-hyeyoung.netlify.app/",
-    "github": "https://github.com/hykim-soulis/myStore",
-    "img": "mystore.jpg",
-    "summary": "MyStore is Angular application that allows users to view a list of available products to purchase, add them to a shopping cart, and ultimately complete the checkout process.",
+    "liveLink": "",
+    "github": "https://github.com/hykim-soulis/Store-Frontend-Project",
+    "img": "store-frontend.jpg",
+    "summary": "Store A is Angular application that allows users to view a list of available products to purchase, add them to a shopping cart, and ultimately complete the checkout process.",
     "description": "",
-    "skills": ["Angular", "Bootstrap", "Typescript"]
+    "skills": ["Angular", "Typescript", "Bootstrap", "Stripe API"]
+  },
+  {
+    "name": "Store Backend Project",
+    "id": 3,
+    "liveLink": "",
+    "github": "https://github.com/hykim-soulis/Store-Backend-Project",
+    "img": "store-backend.jpg",
+    "summary": "The goal of store backend project is to create a SQL database and tables for the store application, and create a RESTful API that can be accessed by frontend developers.",
+    "description": "",
+    "skills": [
+      "Typescript",
+      "PostgreSQL",
+      "Dotenv",
+      "Node.js",
+      "Express",
+      "JWT",
+      "Jasmine"
+    ]
   },
   {
     "name": "Natours",
-    "id": 3,
+    "id": 4,
     "liveLink": "",
     "github": "https://github.com/hykim-soulis/natours",
     "img": "natours.jpg",
@@ -42,31 +60,13 @@
   },
   {
     "name": "Forkify",
-    "id": 4,
+    "id": 5,
     "liveLink": "https://forkify-hyeyoung.netlify.app/",
     "github": "https://github.com/hykim-soulis/forkify-course",
     "img": "forkify.jpg",
     "summary": "Forkify is a recipe search application with custom recipe uploads and bookmark functions. This application is made with vanilla javascript and Model-View-Controller architecture.",
     "description": "",
     "skills": ["JavaScript", "Parcel"]
-  },
-  {
-    "name": "Store Backend Project",
-    "id": 5,
-    "liveLink": "",
-    "github": "https://github.com/hykim-soulis/Store-Backend-Project",
-    "img": "store-backend.jpg",
-    "summary": "The goal of store backend project is to create a SQL database and tables for the store application, and create a RESTful API that can be accessed by frontend developers.",
-    "description": "",
-    "skills": [
-      "Typescript",
-      "PostgreSQL",
-      "Dotenv",
-      "Node.js",
-      "Express",
-      "JWT",
-      "Jasmine"
-    ]
   },
   {
     "name": "Image Processing API",
