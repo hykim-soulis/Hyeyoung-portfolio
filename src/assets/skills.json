@@ -36,6 +36,10 @@
     "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
   },
   {
+    "name": "java",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
+  },
+  {
     "name": "postman",
     "source": "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
   },
